@@ -3,7 +3,7 @@
 ## Challenge Participation - Team Aloha
 This repository contains the official
 implementation of Team Aloha's participation in the 
-semantic segmentation challenge [FH-PS-AOP Challenge](https://ps-fh-aop-2023.grand-challenge.org/). Additionally, it includes an unofficial implementation of the angle of progression estimation and the scoring mechanism used in the challenge, pending official release by the organizers.
+semantic segmentation challenge [FH-PS-AOP Challenge](https://ps-fh-aop-2023.grand-challenge.org/) in Ultrasound Imaging. Additionally, it includes an unofficial implementation of the angle of progression estimation and the scoring mechanism used in the challenge, pending official release by the organizers.
 
 
 ## Abstract
@@ -19,6 +19,10 @@ and employ a soft-ensemble approach based on 5-fold splits. The performance eval
 
 To train the SAM model, please follow the instructions provided in the [train_sam.ipynb](train/train_sam.ipynb) notebook. 
 
+```
+# pretrained weights are available 
+gdown https://drive.google.com/uc?id=1dcmSzq3KsL7DOEBDotwOyzLAtNFBD6AI
+```
 ## Generating Predictions
 
 To generate predictions using the trained model / weights, execute the relevant code provided in the [output_predictions.ipynb](train/output_predictions.ipynb) notebook.
