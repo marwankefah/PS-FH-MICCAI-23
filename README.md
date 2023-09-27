@@ -1,6 +1,8 @@
 # MICCAI 2023 FH-PS-AOP Challenge
 
 ## Challenge Participation - Team Aloha
+
+###### [Marawan Elbatel](https://marwankefah.github.io/), [Robert Martí](https://scholar.google.com/citations?user=M_sM6x8AAAAJ&hl=en), [Xiaomeng Li](https://xmengli.github.io/)
 This repository contains the official
 implementation of Team Aloha's participation in the 
 semantic segmentation challenge [FH-PS-AOP Challenge](https://ps-fh-aop-2023.grand-challenge.org/) in Ultrasound Imaging. Additionally, it includes an unofficial implementation of the angle of progression estimation and the scoring mechanism used in the challenge, pending official release by the organizers.
